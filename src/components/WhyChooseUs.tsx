@@ -13,7 +13,11 @@ function WhyChooseUs() {
     </div>
 
     <Carousel
-    
+    showStatus={false}
+    autoPlay={true}
+    swipeable={true}
+    infiniteLoop={true}
+    showIndicators={false}
     >
       <div className="shadow-xl flex-1 grid grid-cols-1 md:grid-cols-2 gap-y-3 p-4 rounded-xl">
         <div className="flex flex-col gap-y-5">
@@ -67,7 +71,7 @@ function WhyChooseUs() {
 
       <div className="shadow-xl flex-1 grid grid-cols-1 md:grid-cols-2 gap-y-3 p-4 rounded-xl">
         <div className="flex flex-col gap-y-5">
-          <h2 className='text-4xl md:leading-[1] max-w-[239px] font-bold md:text-[54px] text-start'>An open book.</h2>
+          <h2 className='text-4xl md:leading-[1] max-w-[239px] font-bold md:text-[54px] text-start'>Stay in the loop.</h2>
           <div className="flex items-start">
             <ul className='text-gray-600 flex items-start flex-col gap-y-1.5'>
               <li className='text-sm md:text-base md:text-nowrap'><div className='h-2 w-5 rounded-full inline-block bg-green-200 mr-2' />Track your staff activity down to every minute with screenshots.</li>
