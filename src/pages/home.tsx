@@ -303,19 +303,8 @@ function Home({}: Props) {
               <h2 className='font-bold text-4xl lg:text-[54px] lg:leading-[1] max-w-[570px] '>How we ensure you{"'"}re in good hands.</h2>
               <p className="text-base max-w-[646px] lg:text-[22px] text-black/70 my-5 ">With our comprehensive screening process, we hand-pick highly skilled candidates so you can onboard them in a matter of days.</p> 
             
-              {/* <div className="flex flex-col gap-y-2 hover:cursor-pointer">
-                <div className="flex flex-col border p-2 gap-5">
-                  <div className="flex items-center gap-x-3">
-                    <div className="w-[57px] h-[57px] bg-gray-300 rounded-full flex items-center justify-center">
-                      <span className="w-[15.83px] h-[15.83px] bg-black "></span>
-                    </div>
-                    <p className='text-sm text-gray-600'> <span className='font-semibold text-black'>Step 1:</span> Resume Screening</p>
-                  </div>
-                  <p className='text-sm text-gray-600 '>Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit.</p>
-                </div>
-              </div> */}
             
-              <div className="flex flex-col gap-y-2 hover:cursor-pointer">
+              {/* <div className="flex flex-col gap-y-2 hover:cursor-pointer">
                 <div className="flex flex-col border p-2 gap-5 shadow-xl ">
                   <div className="flex items-center gap-x-3">
                     <div className="w-[57px] h-[57px] bg-indigo-400 rounded-full flex items-center justify-center">
@@ -325,7 +314,7 @@ function Home({}: Props) {
                   </div>
                   <p className='text-sm text-gray-600 '>Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit.</p>
                 </div>
-              </div>
+              </div> */}
 
               {
                 accordionData.map((item, index) => (
@@ -333,7 +322,7 @@ function Home({}: Props) {
                       <div  onClick={() => handleAccordionClick(index)} key={item.id} className="flex flex-col gap-y-2 hover:cursor-pointer">
                       <div className="flex flex-col border p-2 gap-5">
                         <div className="flex items-center gap-x-3">
-                          <div className={`w-[57px] h-[57px] rounded-full flex items-center justify-center ${item.id === index ? "bg-indigo-400" : "bg-gray-300"} `}>
+                          <div className={`w-[57px] h-[57px] rounded-full flex items-center justify-center bg-gray-300 ${accordionContent.includes(index) && "bg-indigo-400"} `}>
                             <span className="w-[15.83px] h-[15.83px] bg-black "></span>
                           </div>
                           <p className='text-sm text-gray-600'> <span className='font-semibold text-black'>{item.step}</span> {item.title}</p>
