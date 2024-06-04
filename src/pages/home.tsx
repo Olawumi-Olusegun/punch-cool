@@ -440,7 +440,7 @@ function Home({}: Props) {
               </div>
               <div className='flex1 flex items-center justify-between group'>
                 <span className='flex-1  py-5 px-5 text-gray-500'>I want to work part-time, is that possible</span>
-                <img src="/assets/arrow-right-black.png" alt="arrow icon" className='inline-block mr-6 opacity-0 duration-300 group-hover:opacity-100' />
+                <img src="/assets/arrow-right-yellow.png" alt="arrow icon" className='inline-block mr-6 opacity-0 duration-300 group-hover:opacity-100' />
               </div> 
 
             </div>
@@ -449,7 +449,7 @@ function Home({}: Props) {
               <span className='h-1'></span>
               <div className='flex1 flex items-center justify-between group'>
                 <span className='flex-1  py-5 px-5 text-gray-500'>How long are the average projects?</span>
-                <img src="/assets/arrow-right-black.png" alt="arrow icon" className='inline-block mr-6 opacity-0 duration-300 group-hover:opacity-100' />
+                <img src="/assets/arrow-right-yellow.png" alt="arrow icon" className='inline-block mr-6 opacity-0 duration-300 group-hover:opacity-100' />
               </div>  
             </div>
 
@@ -457,7 +457,7 @@ function Home({}: Props) {
               <span className='h-1'></span>
               <div className='flex1 flex items-center justify-between group'>
                 <span className='flex-1  py-5 px-5 text-gray-500'>How much can I earn?</span>
-                <img src="/assets/arrow-right-black.png" alt="arrow icon" className='inline-block mr-6 opacity-0 duration-300 group-hover:opacity-100' />
+                <img src="/assets/arrow-right-yellow.png" alt="arrow icon" className='inline-block mr-6 opacity-0 duration-300 group-hover:opacity-100' />
               </div>           
             </div>
 
@@ -465,7 +465,7 @@ function Home({}: Props) {
               <span className='h-1'></span>
               <div className='flex1 flex items-center justify-between group'>
                 <span className='flex-1  py-5 px-5 text-gray-500'>How does the payment works?</span>
-                <img src="/assets/arrow-right-black.png" alt="arrow icon" className='inline-block mr-6 opacity-0 duration-300 group-hover:opacity-100' />
+                <img src="/assets/arrow-right-yellow.png" alt="arrow icon" className='inline-block mr-6 opacity-0 duration-300 group-hover:opacity-100' />
               </div>
             </div>
           
@@ -480,7 +480,7 @@ function Home({}: Props) {
               </div>
               <div className='flex1 flex items-center justify-between group'>
                 <span className='flex-1  py-5 px-5 text-gray-500'>I want to work part-time, is that possible</span>
-                <img src="/assets/arrow-right-black.png" alt="arrow icon" className='inline-block mr-6 opacity-0 duration-300 group-hover:opacity-100' />
+                <img src="/assets/arrow-right-yellow.png" alt="arrow icon" className='inline-block mr-6 opacity-0 duration-300 group-hover:opacity-100' />
               </div>
             </div>
 
@@ -488,7 +488,7 @@ function Home({}: Props) {
               <span className='h-1'></span>
               <div className='flex1 flex items-center justify-between group'>
                 <span className='flex-1  py-5 px-5 text-gray-500'>How long are the average projects?</span>
-                <img src="/assets/arrow-right-black.png" alt="arrow icon" className='inline-block mr-6 opacity-0 duration-300 group-hover:opacity-100' />
+                <img src="/assets/arrow-right-yellow.png" alt="arrow icon" className='inline-block mr-6 opacity-0 duration-300 group-hover:opacity-100' />
               </div>
             </div>
 
@@ -496,7 +496,7 @@ function Home({}: Props) {
               <span className='h-1'></span>
               <div className='flex1 flex items-center justify-between group'>
                 <span className='flex-1  py-5 px-5 text-gray-500'>How much can I earn?</span>
-                <img src="/assets/arrow-right-black.png" alt="arrow icon" className='inline-block mr-6 opacity-0 duration-300 group-hover:opacity-100' />
+                <img src="/assets/arrow-right-yellow.png" alt="arrow icon" className='inline-block mr-6 opacity-0 duration-300 group-hover:opacity-100' />
               </div>
             </div>
           
