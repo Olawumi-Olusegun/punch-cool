@@ -19,7 +19,7 @@ const DesktopNav = ({onButtonClick}: {onButtonClick:() => void, isMobileMenu: bo
                    <li> <a href="#" className='text-white'>About Us</a> </li>
                    <li> <a href="#" className='text-white'>Contact Us</a> </li>
                </ul>
-               <div className="hidden md:flex items-center gap-x-2">
+               <div className="hidden md:flex items-center gap-x-4">
                    <a href="#" className='text-white'>Login</a>
                    <a href="#" className='bg-white text-black/80 hover:bg-white/80 duration-300 font-semibold rounded-xl px-4 py-2  '>Join Now</a>
                </div>

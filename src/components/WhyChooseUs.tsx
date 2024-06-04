@@ -31,7 +31,7 @@ function WhyChooseUs() {
           </div>
 
             <a href='#' className="flex items-center gap-2 mt-auto">
-              <button className="flex items-center justify-center  h-[74px] w-[74px] bg-black/80  rounded-[30px] ">
+              <button className="flex items-center justify-center w-16 h-16 rounded-3xl md:h-[74px] md:w-[74px] bg-black/80  md:rounded-[30px] ">
               <div className="">
                     <img src={"/assets/arrow-right-white.png"} alt="logo" className='h-5 w-5' />
                 </div>
@@ -56,7 +56,7 @@ function WhyChooseUs() {
           </div>
 
             <a href='#' className="flex items-center gap-2 mt-auto">
-              <button className="flex items-center justify-center  h-[74px] w-[74px] bg-black/80  rounded-[30px] ">
+              <button className="flex items-center justify-center w-16 h-16 rounded-3xl md:h-[74px] md:w-[74px] bg-black/80  md:rounded-[30px] ">
               <div className="">
                     <img src={"/assets/arrow-right-white.png"} alt="logo" className='h-5 w-5' />
                 </div>
@@ -81,7 +81,7 @@ function WhyChooseUs() {
           </div>
 
             <a href='#' className="flex items-center gap-2 mt-auto">
-              <button className="flex items-center justify-center  h-[74px] w-[74px] bg-black/80  rounded-[30px] ">
+              <button className="flex items-center justify-center w-16 h-16 rounded-3xl md:h-[74px] md:w-[74px] bg-black/80  md:rounded-[30px] ">
                 <div className="">
                     <img src={"/assets/arrow-right-white.png"} alt="logo" className='h-5 w-5' />
                 </div>

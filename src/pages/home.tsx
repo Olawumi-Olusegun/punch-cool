@@ -293,7 +293,7 @@ function Home({}: Props) {
             </div>
           
         </div>
-        <img src="/assets/quotation-mark.png" alt="quotation-mark icon" className='absolute top-0 right-14 pointer-events-none' />
+        <img src="/assets/quotation-mark.png" alt="quotation-mark icon" className='h-20 w-20 sm:h-auto sm:w-auto absolute top-0 right-14 pointer-events-none' />
       </div>
     </section>
    

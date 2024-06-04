@@ -60,7 +60,7 @@ const MobileNav = ({onButtonClick, isMobileMenu}: {onButtonClick:() => void, isM
                   <li onClick={onButtonClick}> <a href="#" className='text-white block py-2.5 '>Contact Us</a> </li>
               </ul>
               <div className="flex flex-col gap-3 w-full mt-5 ">
-                  <a onClick={onButtonClick} href="#" className='border-2 border-white text-black/80 hover:bg-white/80 text-center duration-300 font-semibold rounded-xl px-4 py-2 '>Login</a>
+                  <a onClick={onButtonClick} href="#" className='border-2 border-white  text-white/80 hover:bg-white/80 hover:text-black/80 text-center duration-300 font-semibold rounded-xl px-4 py-2 '>Login</a>
                   <a onClick={onButtonClick} href="#" className='bg-white text-black/80 hover:bg-white/80 text-center duration-300 font-semibold rounded-xl px-4 py-2  '>Join Now</a>
               </div>
 
