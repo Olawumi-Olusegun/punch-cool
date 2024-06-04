@@ -444,9 +444,9 @@ function Home({}: Props) {
             <h2 className='text-4xl md:leading-[1] max-w-[464px]: font-bold md:text-[54px]'>Onboard without the risk.</h2>
             <div className="">
               <ul className='text-gray-600 flex flex-col gap-y-1.5'>
-                <li className='text-sm md:text-base text-nowrap'> <div className='h-2 w-5 rounded-full inline-block bg-gray-500 mr-2' /> We pick the best for you to select.</li>
-                <li className='text-sm md:text-base text-nowrap'><div className='h-2 w-5 rounded-full inline-block bg-gray-500 mr-2' /> Thousands of vetted candidates in dozens of categories.</li>
-                <li className='text-sm md:text-base text-nowrap'> <div className='h-2 w-5 rounded-full inline-block bg-gray-500 mr-2' /> Risk-free resource swapping for the best fit.</li>
+                <li className='text-sm md:text-base md:text-nowrap'> <div className='h-2 w-5 rounded-full inline-block bg-gray-500 mr-2' /> We pick the best for you to select.</li>
+                <li className='text-sm md:text-base md:text-nowrap'><div className='h-2 w-5 rounded-full inline-block bg-gray-500 mr-2' /> Thousands of vetted candidates in dozens of categories.</li>
+                <li className='text-sm md:text-base md:text-nowrap'> <div className='h-2 w-5 rounded-full inline-block bg-gray-500 mr-2' /> Risk-free resource swapping for the best fit.</li>
               </ul>
             </div>
 
@@ -467,9 +467,9 @@ function Home({}: Props) {
             <h2 className='text-4xl md:leading-[1] max-w-[239px] font-bold md:text-[54px]'>An open book.</h2>
             <div className="">
               <ul className='text-gray-600 flex flex-col gap-y-1.5'>
-                <li className='text-sm md:text-base text-nowrap'><div className='h-2 w-5 rounded-full inline-block bg-yellow-500 mr-2' /> Easy and transparent one-to-one chat with candidates.</li>
-                <li className='text-sm md:text-base text-nowrap'><div className='h-2 w-5 rounded-full inline-block bg-yellow-500 mr-2' />Simple and convenient payment methods.</li>
-                <li className='text-sm md:text-base text-nowrap'><div className='h-2 w-5 rounded-full inline-block bg-yellow-500 mr-2' />Review past ratings.</li>
+                <li className='text-sm md:text-base md:text-nowrap'><div className='h-2 w-5 rounded-full inline-block bg-yellow-500 mr-2' /> Easy and transparent one-to-one chat with candidates.</li>
+                <li className='text-sm md:text-base md:text-nowrap'><div className='h-2 w-5 rounded-full inline-block bg-yellow-500 mr-2' />Simple and convenient payment methods.</li>
+                <li className='text-sm md:text-base md:text-nowrap'><div className='h-2 w-5 rounded-full inline-block bg-yellow-500 mr-2' />Review past ratings.</li>
               </ul>
             </div>
 
@@ -490,9 +490,9 @@ function Home({}: Props) {
             <h2 className='text-4xl md:leading-[1] max-w-[239px] font-bold md:text-[54px]'>An open book.</h2>
             <div className="">
               <ul className='text-gray-600 flex flex-col gap-y-1.5'>
-                <li className='text-sm md:text-base text-nowrap'><div className='h-2 w-5 rounded-full inline-block bg-green-200 mr-2' />Track your staff activity down to every minute with screenshots.</li>
-                <li className='text-sm md:text-base text-nowrap'><div className='h-2 w-5 rounded-full inline-block bg-green-200 mr-2' />Comprehensive timesheet data to process payments.</li>
-                <li className='text-sm md:text-base text-nowrap'><div className='h-2 w-5 rounded-full inline-block bg-green-200 mr-2' />Create projects to organize and assign tasks more effectively.</li>
+                <li className='text-sm md:text-base md:text-nowrap'><div className='h-2 w-5 rounded-full inline-block bg-green-200 mr-2' />Track your staff activity down to every minute with screenshots.</li>
+                <li className='text-sm md:text-base md:text-nowrap'><div className='h-2 w-5 rounded-full inline-block bg-green-200 mr-2' />Comprehensive timesheet data to process payments.</li>
+                <li className='text-sm md:text-base md:text-nowrap'><div className='h-2 w-5 rounded-full inline-block bg-green-200 mr-2' />Create projects to organize and assign tasks more effectively.</li>
               </ul>
             </div>
 
