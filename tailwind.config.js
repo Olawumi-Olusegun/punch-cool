@@ -8,7 +8,10 @@ export default {
     extend: {
       colors: {
         primary: "#525AA0"
-      }
+      },
+      fontFamily: {
+        switzer: ["Switzer", "sans-serif"],
+      },
     },
   },
   plugins: [],

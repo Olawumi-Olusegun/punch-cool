@@ -2,6 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Custom-1";
+  src: url("/fonts/Switzer-Black.ttf");
+}
+
 body {
   @apply min-h-screen scroll-smooth;
+  @apply font-switzer;
+}
+
+.footer-slant {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer-slant::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -25px;
+  background-color: #0c0c0c;
+  height: 50px;
+  transform: skewY(-2deg);
+  z-index: -10;
+}
+
+.beforeSlant {
+  @apply before:content-['*'] before:absolute before:left-0 before:right-0 before:bottom-[25px] before:h-[50px];
 }
