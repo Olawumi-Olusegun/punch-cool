@@ -14,10 +14,7 @@ function WhyChooseUs() {
 
     <Carousel
     showStatus={false}
-    autoPlay={true}
-    swipeable={true}
-    infiniteLoop={true}
-    showIndicators={false}
+    showIndicators={true}
     >
       <div className="shadow-xl flex-1 grid grid-cols-1 md:grid-cols-2 gap-y-3 p-4 rounded-xl">
         <div className="flex flex-col gap-y-5">

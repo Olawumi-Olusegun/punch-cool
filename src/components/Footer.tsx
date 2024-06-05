@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 type Props = {}
 
@@ -9,8 +10,8 @@ function Footer({}: Props) {
         <footer className='text-white/70 text-xs flex flex-col md:flex-row items-center flex-wrap gap-y-2 justify-between max-w-[1300px] mx-auto '>
             <p>All rights reserved  by Zwilt</p>
             <div className="flex items-center gap-x-5">
-                <a href="#" className='underline decoration-gray-400'>Privacy Policy</a>
-                <a href="#" className='underline decoration-gray-400'>Terms and Conditions</a>
+                <Link to="#" className='underline decoration-gray-400'>Privacy Policy</Link>
+                <Link to="#" className='underline decoration-gray-400'>Terms and Conditions</Link>
             </div>
         </footer>
     </section>

@@ -1,11 +1,9 @@
-
 import './App.css'
 import Footer from './components/Footer'
 import Navbar from './components/navbar'
-import Home from './pages/home'
+import Home from './pages/home/home'
 
 function App() {
-
   return (
     <div className='min-h-screen relative'>
       <Navbar />
