@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 type Props = {}
 
@@ -20,9 +21,9 @@ function FooterButtom({}: Props) {
             
             <div className="max-w-[1300px] mx-auto gap-x-32 gap-y-5 grid grid-cols-1 lg:grid-cols-[20rem,1fr]">
               <div className="">
-                <a href='#' className='flex items-center '>
+                <Link to='/' className='flex items-center '>
                   <span className='font-bold text-3xl'>Zilt</span> <img src={"/Vector.png"} alt="logo" />
-                </a>
+                </Link>
 
                 <p className='text-slate-300 mt-[28.69px] leading-6 max-w-[700px]'>We take complex hiring processes - and simplify them. Connecting you to the world{"'"}s highly qualified talent pool.</p>
               
@@ -42,28 +43,28 @@ function FooterButtom({}: Props) {
               <div className="grid grid-cols-2 lg:grid-cols-4 mt-[64px] gap-6 ">
                 <ul className="">
                   <h2 className='text-white/40 text-sm font-semibold mb-4'>PLATFORM</h2>
-                  <li className='mb-2'> <a href="#" className='text-[18px]'>Find Work</a> </li>
-                  <li className='mb-2'> <a href="#" className='text-[18px]'>Find Talent</a> </li>
-                  <li className='mb-2'> <a href="#" className='text-[18px]'>Categories</a> </li>
-                  <li className='mb-2'> <a href="#" className='text-[18px]'>About Us</a> </li>
+                  <li className='mb-2'> <Link to="#" className='text-[18px]'>Find Work</Link> </li>
+                  <li className='mb-2'> <Link to="#" className='text-[18px]'>Find Talent</Link> </li>
+                  <li className='mb-2'> <Link to="#" className='text-[18px]'>Categories</Link> </li>
+                  <li className='mb-2'> <Link to="#" className='text-[18px]'>About Us</Link> </li>
                 </ul>
                 <ul className="">
                   <h2 className='text-white/40 text-sm font-semibold mb-4'>CATEGORIES</h2>
-                  <li className='mb-2'> <a href="#" className='text-[18px]'>Data Science</a> </li>
-                  <li className='mb-2'> <a href="#" className='text-[18px]'>Find Talent</a> </li>
-                  <li className='mb-2'> <a href="#" className='text-[18px]'>IT & Networking</a> </li>
-                  <li className='mb-2'> <a href="#" className='text-[18px]'>Web & Mobile</a> </li>
+                  <li className='mb-2'> <Link to="#" className='text-[18px]'>Data Science</Link> </li>
+                  <li className='mb-2'> <Link to="#" className='text-[18px]'>Find Talent</Link> </li>
+                  <li className='mb-2'> <Link to="#" className='text-[18px]'>IT & Networking</Link> </li>
+                  <li className='mb-2'> <Link to="#" className='text-[18px]'>Web & Mobile</Link> </li>
                 </ul>
                 <ul className="">
                   <h2 className='text-white/40 text-sm font-semibold mb-4'>HELP</h2>
-                  <li className='mb-2'> <a href="#" className='text-[18px]'>FAQ{"'"}s</a> </li>
-                  <li className='mb-2'> <a href="#" className='text-[18px]'>Contact Us</a> </li>
+                  <li className='mb-2'> <Link to="#" className='text-[18px]'>FAQ{"'"}s</Link> </li>
+                  <li className='mb-2'> <Link to="#" className='text-[18px]'>Contact Us</Link> </li>
                 </ul>
                 <ul className="">
                   <h2 className='text-white/40 text-sm font-semibold mb-4'>GET IN TOUCH @</h2>
-                  <li className='mb-2'> <a href="#" className='text-[18px]'>Instagram</a> </li>
-                  <li className='mb-2'> <a href="#" className='text-[18px]'>LinkedIn</a> </li>
-                  <li className='mb-2'> <a href="#" className='text-[18px]'>Twitter</a> </li>
+                  <li className='mb-2'> <Link to="#" className='text-[18px]'>Instagram</Link> </li>
+                  <li className='mb-2'> <Link to="#" className='text-[18px]'>LinkedIn</Link> </li>
+                  <li className='mb-2'> <Link to="#" className='text-[18px]'>Twitter</Link> </li>
                 </ul>
               </div>
               
