@@ -44,7 +44,7 @@ function Accordion() {
   
     }
   return (
-    <div className="w-full px-5  py-28">
+    <div className="w-full px-5 py-12 md:py-20 ">
     <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-[1300px] mx-auto">
    
         <div className="flex flex-col gap-3">

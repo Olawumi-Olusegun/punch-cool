@@ -5,8 +5,9 @@ type Props = {}
 
 function StartAJourney({}: Props) {
   return (
-    <div className="w-full px-3 md:px-0 py-28 bg-white">
-    <div className="max-w-[1300px] mx-auto">
+    <div className="w-full px-3 md:px-0 pb-28  bg-white">
+    <div className="max-w-[1300px] mx-auto flex flex-col gap-y-5">
+      <h1 className='text-center text-3xl md:text-5xl font-bold py-5 md:py-10 '>Start your journey today.</h1>
     <div className="bg-purple-100 -skew-y-2 ">          
       <div className="flex flex-col gap-5 mb-10 ">
         <div className="items-center justify-between  grid grid-cols-1 lg:grid-cols-2 ">
