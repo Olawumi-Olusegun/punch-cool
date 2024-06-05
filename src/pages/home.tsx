@@ -45,13 +45,9 @@ function Home({}: Props) {
   const [accordionContent, setAccordionContent] = useState<any[]>([]);
 
   const handleAccordionClick = (index: any) => {
-    const tempAccordion = [...accordionContent];
-    const idexofA = tempAccordion.indexOf(index);
-    if(idexofA === -1) {
-      tempAccordion.push(index)
-    } else {
-      tempAccordion.splice(idexofA, 1)
-    }
+
+    const tempAccordion = accordionContent.includes(index) ? [] : [index];
+
     setAccordionContent(tempAccordion)
   }
   return (
